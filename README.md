@@ -28,6 +28,10 @@ PID controller is to read the CTE "Cross Track Error", then compute the desired 
   ** I - Controller : **
     The error **"CTE"** is integrated (averaged) over a period of time, and then multiplied by a constant **"Ki"** ,and added to PD-Controller output.
 
-    Example for the effect of PID-Controller :
+  Example for the effect of PID-Controller :
 
-    <img src="img/PIDimg.png">
+  <img src="img/PIDimg.png">
+
+  Parameters in this project is tuned manually.
+
+  
